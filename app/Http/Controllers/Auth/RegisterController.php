@@ -21,7 +21,7 @@ class RegisterController extends Controller
             'password' => 'required|confirmed',
         ]);
         
-        dd($request->name);
+        // dd($request->name);
 
         // store user
         // sign user in
